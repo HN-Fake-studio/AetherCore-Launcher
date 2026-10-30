@@ -29,5 +29,4 @@ jobs:
       with:
         name: AetherCore-Debug-APK
         path: |
-          app-core/build/outputs/apk/debug/*.apk
-          app/build/outputs/apk/debug/*.apk
+          **/build/outputs/apk/debug/*.apk
